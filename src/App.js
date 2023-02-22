@@ -12,6 +12,7 @@ const App = () => {
     { text: 'Finish the course!', id: v4().toString() }
   ]);
 
+  
   const addGoalHandler = enteredText => {
     setCourseGoals(prevGoals => {
       const updatedGoals = [...prevGoals];
