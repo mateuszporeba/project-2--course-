@@ -12,7 +12,11 @@
   outline: none;
 }
 
-.button:hover,
+.button:hover{
+  opacity:80%;
+  transition: all 0.4s ease-in-out;
+}
+
 
 .button:active {
   background: #ac0e77;
