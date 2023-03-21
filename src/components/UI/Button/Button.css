@@ -13,6 +13,7 @@
 }
 
 .button:hover,
+
 .button:active {
   background: #ac0e77;
   border-color: #ac0e77;
